@@ -1,0 +1,96 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	background-color: #192123
+}	
+div#wrapper{
+	width: 840px;
+	margin: 10px auto;
+	color: #FDE8B5
+}
+header{
+	width: 100%;
+	margin: auto;
+
+}
+div#headline{
+	text-align: center;
+	margin: 20px;
+}
+main{
+	float: left;
+	width: 58%;
+	margin-top: 20px;
+}
+a.validchk{
+	width: 100%;
+	margin: auto;
+}
+form {
+	max-width: 580px;
+}
+
+fieldset{
+	padding: 10px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+input[type=text]
+input[type=email]{
+	widows: 98%;
+	height: 20px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+input[type=radio]
+input[type=checkbox]{
+	margin-right: 5px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+form li{
+	list-style-type: none;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+form ul{
+	margin-bottom: 10px;
+}
+textarea{
+	width: 92%;
+	margin-bottom: 10px;
+	resize: both;
+	background-color: white;
+}
+aside{
+	float: right;
+	width: 38%;
+	margin-top: 20px;
+}
+h1{
+	color: #BF9A16
+}
+h2{
+	color: #BF9A16
+}
+p{
+	text-indent: 20px;
+	text-align: justify;
+}
+blockquote{
+	text-align: center;
+}
+footer{
+	clear: both;
+	text-align: center;
+	height: 75px;
+	width: 100%;
+	margin: auto;
+}
