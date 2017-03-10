@@ -1,96 +1,92 @@
+<style type="text/css">
+	*{
+		padding:0;
+		margin:0;
+	}
 
-*{
-	padding: 0;
-	margin: 0;
-	background-color: #192123
-}	
-div#wrapper{
-	width: 840px;
-	margin: 10px auto;
-	color: #FDE8B5
-}
-header{
-	width: 100%;
-	margin: auto;
+	body{
+		background:#ddd;
+		font-size:100%;
+	}
 
-}
-div#headline{
-	text-align: center;
-	margin: 20px;
-}
-main{
-	float: left;
-	width: 58%;
-	margin-top: 20px;
-}
-a.validchk{
-	width: 100%;
-	margin: auto;
-}
-form {
-	max-width: 580px;
-}
+	div#wrapper{
+		min-height: 570px;
+		min-width: 470px;
+		max-width: 940px;
+		margin:0 auto;
+		background-color:white;
+		text-align:center;
+		box-sizing: border;
+		word-wrap: break-word;
+	}
 
-fieldset{
-	padding: 10px;
-}
+	header{
+		height:25%;
+		background-color:orange;
+	}
 
-label {
-	display: block;
-	margin-bottom: 10px;
-	margin-top: 15px;
-}
-input[type=text]
-input[type=email]{
-	widows: 98%;
-	height: 20px;
-	margin-bottom: 10px;
-	background-color: white;
-}
-input[type=radio]
-input[type=checkbox]{
-	margin-right: 5px;
-	margin-bottom: 10px;
-	background-color: white;
-}
-form li{
-	list-style-type: none;
-	margin-left: 15px;
-	margin-bottom: 5px;
-	margin-right: 5px;
-}
+	img{
+		width: 100%;
+		height: auto;
+	}
 
-form ul{
-	margin-bottom: 10px;
-}
-textarea{
-	width: 92%;
-	margin-bottom: 10px;
-	resize: both;
-	background-color: white;
-}
-aside{
-	float: right;
-	width: 38%;
-	margin-top: 20px;
-}
-h1{
-	color: #BF9A16
-}
-h2{
-	color: #BF9A16
-}
-p{
-	text-indent: 20px;
-	text-align: justify;
-}
-blockquote{
-	text-align: center;
-}
-footer{
-	clear: both;
-	text-align: center;
-	height: 75px;
-	width: 100%;
-	margin: auto;
-}
+	nav{
+		width: 100%;
+		min-height:50px;
+		height:10%;
+		line-height:50px;
+		background-color:blue;
+	}
+
+	nav li{
+		float:left;
+		list-style-type:none;
+		width:12%; 
+		text-align:center;
+	}
+
+	nav a{
+		color: white;
+		text-decoration:none;
+		display:block;
+	}
+
+	nav a:hover{
+		background:#000;
+	}
+
+	div#banner{
+		height:150px;
+		background-color:red;
+	}
+
+	main{
+		
+		background-color:#666;
+		max-height: 70%;
+		width:70%;
+		max-width: 658px; 
+		float:left;	
+	}
+
+	p{
+		margin: 5px;
+		padding: 5px;
+		overflow: hidden;
+	}
+	aside{
+		max-height: 70%
+		background-color:yellow;
+		width:30%;
+		max-width: 282px;
+		float:right;
+	}
+
+	footer{
+		height:50px;
+		background-color:black;
+		clear:both;
+	}
+	h1{
+		text-align:center;
+	}
